@@ -112,34 +112,33 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BtnOK.Text" xml:space="preserve">
     <value>OK</value>
   </data>
-  <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Zrušiť</value>
+  <data name="CbDoNotShow.Text" xml:space="preserve">
+    <value>Znova nezobrazovať</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Riadok #</value>
+  <data name="LblCause.Text" xml:space="preserve">
+    <value>Dôvod:</value>
   </data>
-  <data name="RbFromSpecific.Text" xml:space="preserve">
-    <value>Spustiť z daného riadku</value>
+  <data name="TxtCause.Text" xml:space="preserve">
+    <value>Neznámy</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Možnosti</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Spustiť z pozície</value>
+  <data name="LblDetected.Text" xml:space="preserve">
+    <value>LaserGRBL detekoval problém s Vaším hardvérom!</value>
   </data>
   <data name="LblBrief.Text" xml:space="preserve">
-    <value>Táto funkcia umožňuje spustiť úlohu od konkrétneho riadku a preskočiť akýkoľvek predchádzajúci pohyb.
-LaserGRBL vypočíta presnú polohu a stav, a potom uvedie stroj do správneho stavu.</value>
+    <value>Zdá sa, že grbl má s prevedením tejto úlohy problém. Príčiny tejto situácie môžu byť rôzne, prečítajte si prosím FAQ, kde nájdete informácie o tom, ako tento problém vyriešiť.</value>
   </data>
-  <data name="CbRedoHoming.Text" xml:space="preserve">
-    <value>Návrat domov [$H]</value>
+  <data name="LL.Text" xml:space="preserve">
+    <value>http://lasergrbl.com/faq/</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detekovaný problém!</value>
   </data>
 </root>

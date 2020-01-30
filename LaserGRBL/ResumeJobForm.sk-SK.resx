@@ -112,20 +112,20 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LblBrief.Text" xml:space="preserve">
     <value>LaserGRBL môže spustiť túto úlohu znova od začiatku alebo sa ju pokúsi obnoviť z poslednej známej
-     pozície. Pretože nie vždy je po reštartovaní možné určiť najlepšiu pozíciu, konečné rozhodnutie je na Vás.</value>
+     pozície. Pretože nie vždy je po reštartovaní možné určiť najlepšiu pozíciu, konečné rozhodnutie je na Vás. Posledná rýchlosť, sila a stav lasera sú obnovené automaticky.</value>
   </data>
   <data name="BtnOK.Text" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Storno</value>
+    <value>Zrušiť</value>
   </data>
   <data name="RbSomeLines.Text" xml:space="preserve">
     <value>Obnoviť niektoré riadky pred zastavením</value>
@@ -134,7 +134,7 @@
     <value>Riadok #</value>
   </data>
   <data name="RbFromSpecific.Text" xml:space="preserve">
-    <value>Obnoviť z daného riadku</value>
+    <value>Pokračovať z daného riadku</value>
   </data>
   <data name="RbFromBeginning.Text" xml:space="preserve">
     <value>Spustiť znovu od začiatku [bezpečné]</value>
@@ -143,21 +143,33 @@
     <value>Možnosti</value>
   </data>
   <data name="RbFromSent.Text" xml:space="preserve">
-    <value>Obnoviť od posledného odoslaného príkazu</value>
+    <value>Pokračovať od posledne poslaného príkazu</value>
   </data>
   <data name="LblCause.Text" xml:space="preserve">
-    <value>Dôvod:</value>
+    <value>Príčina</value>
   </data>
   <data name="TxtCause.Text" xml:space="preserve">
-    <value>Neznámý</value>
+    <value>Neznámy</value>
   </data>
   <data name="LblDetected.Text" xml:space="preserve">
-    <value>LaserGRBL detekoval, že posledná úloha nebola dokončená!</value>
+    <value>LaserGRBL zistil, že sa posledná úloha nedokončila!</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Pokračovať</value>
   </data>
   <data name="CbRestoreWCO.Text" xml:space="preserve">
     <value>Domov @</value>
+  </data>
+  <data name="CbRedoHoming.Text" xml:space="preserve">
+    <value>Obnoviť Domov [$H]</value>
+  </data>
+  <data name="LblSomeLines.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblBegin.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblSent.Text" xml:space="preserve">
+    <value>0</value>
   </data>
 </root>

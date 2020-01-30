@@ -112,34 +112,42 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnOK.Text" xml:space="preserve">
-    <value>OK</value>
+  <data name="BtnReset.ToolTip" xml:space="preserve">
+    <value>Resetovať Grbl (CTRL-X)</value>
   </data>
-  <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Zrušiť</value>
+  <data name="addCustomButtonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pridať vlastné tlačítko</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Riadok #</value>
+  <data name="exportCustomButtonsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exportovať vlastné tlačítká</value>
   </data>
-  <data name="RbFromSpecific.Text" xml:space="preserve">
-    <value>Spustiť z daného riadku</value>
+  <data name="importCustomButtonsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Importovať vlastné tlačítka</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Možnosti</value>
+  <data name="BtnUnlock.ToolTip" xml:space="preserve">
+    <value>Odomknúť Grbl ($X)</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Spustiť z pozície</value>
+  <data name="BtnHoming.ToolTip" xml:space="preserve">
+    <value>Domov ($H)</value>
   </data>
-  <data name="LblBrief.Text" xml:space="preserve">
-    <value>Táto funkcia umožňuje spustiť úlohu od konkrétneho riadku a preskočiť akýkoľvek predchádzajúci pohyb.
-LaserGRBL vypočíta presnú polohu a stav, a potom uvedie stroj do správneho stavu.</value>
+  <data name="BtnZeroing.ToolTip" xml:space="preserve">
+    <value>Nastavenie nulového bodu (G92)</value>
   </data>
-  <data name="CbRedoHoming.Text" xml:space="preserve">
-    <value>Návrat domov [$H]</value>
+  <data name="BtnResume.ToolTip" xml:space="preserve">
+    <value>Obnoviť úlohu</value>
+  </data>
+  <data name="BtnStop.ToolTip" xml:space="preserve">
+    <value>Prerušiť úlohu</value>
+  </data>
+  <data name="RemoveButton.Text" xml:space="preserve">
+    <value>Odstrániť tlačítko</value>
+  </data>
+  <data name="editButtonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Upraviť tlačítko</value>
   </data>
 </root>

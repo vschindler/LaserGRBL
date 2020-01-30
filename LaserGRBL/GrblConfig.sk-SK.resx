@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BtnWrite.Text" xml:space="preserve">
-    <value>Zápis</value>
+    <value>Zapísať</value>
   </data>
   <data name="BtnRead.Text" xml:space="preserve">
     <value>Čítanie</value>
@@ -146,7 +146,7 @@ iba pri pripojení v kľudnom stave</value>
     <value>Číslo</value>
   </data>
   <data name="GB.Text" xml:space="preserve">
-    <value>Grbl $$ konfiguracia</value>
+    <value>Grbl $$ konfigurácia</value>
   </data>
   <data name="DollarNumber.HeaderText" xml:space="preserve">
     <value>#</value>

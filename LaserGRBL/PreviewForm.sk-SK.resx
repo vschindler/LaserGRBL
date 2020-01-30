@@ -124,10 +124,10 @@
     <value>Pridať vlastné tlačítko</value>
   </data>
   <data name="exportCustomButtonsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exportovať vlastné tlačítká</value>
+    <value>Exportovať vlastné tlačidlá</value>
   </data>
   <data name="importCustomButtonsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Importovať vlastné tlačítka</value>
+    <value>Importovať vlastné tlačidlá</value>
   </data>
   <data name="BtnUnlock.ToolTip" xml:space="preserve">
     <value>Odomknúť Grbl ($X)</value>
@@ -145,9 +145,9 @@
     <value>Prerušiť úlohu</value>
   </data>
   <data name="RemoveButton.Text" xml:space="preserve">
-    <value>Odstrániť tlačítko</value>
+   <value>Odstráňiť tlačidlo</value>
   </data>
   <data name="editButtonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upraviť tlačítko</value>
+    <value>Upraviť tlačidlo</value>
   </data>
 </root>

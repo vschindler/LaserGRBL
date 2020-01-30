@@ -121,7 +121,7 @@
     <value>OK</value>
   </data>
   <data name="CbDoNotShow.Text" xml:space="preserve">
-    <value>Znova nezobrazovať</value>
+    <value>Už viac nezobrazovať</value>
   </data>
   <data name="LblCause.Text" xml:space="preserve">
     <value>Dôvod:</value>
@@ -130,7 +130,7 @@
     <value>Neznámy</value>
   </data>
   <data name="LblDetected.Text" xml:space="preserve">
-    <value>LaserGRBL detekoval problém s Vaším hardvérom!</value>
+    <value>LaserGRBL zistil nejaké problémy s vaším hardvérom!</value>
   </data>
   <data name="LblBrief.Text" xml:space="preserve">
     <value>Zdá sa, že grbl má s prevedením tejto úlohy problém. Príčiny tejto situácie môžu byť rôzne, prečítajte si prosím FAQ, kde nájdete informácie o tom, ako tento problém vyriešiť.</value>
@@ -139,6 +139,6 @@
     <value>http://lasergrbl.com/faq/</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Detekovaný problém!</value>
+    <value>Zistený problém!</value>
   </data>
 </root>

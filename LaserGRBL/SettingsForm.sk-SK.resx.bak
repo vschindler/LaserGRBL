@@ -112,13 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Zrušiť</value>
+    <value>Storno</value>
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
     <value>Uložiť</value>
@@ -139,10 +139,10 @@
     <value>Import rastrových obrázkov</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>LaserGRBL nieje navrhnutý pre ovládanie osi Z, ale pokiaľ máte prístroj s troma osami, môže byť táto možnosť užitočná.</value>
+    <value>LaserGRBL nieje navrhnutý pre ovládanie osi Z, ale pokiaľ máte stroj s 3. osami, môže byť táto možnosť užitočná.</value>
   </data>
   <data name="CbEnableZJog.Text" xml:space="preserve">
-    <value>Zobraziť ovládanie osi Z (nahor a nadol)</value>
+    <value>Zobrazenie ovládania osi Z (nahor a nadol)</value>
   </data>
   <data name="CbAutoCooling.Text" xml:space="preserve">
     <value>Automatické chladenie</value>
@@ -160,17 +160,17 @@
     <value>Automatické chladenie</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Nastavenia</value>
+    <value>Nastavenie</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Protokol pripojenia:
-- UsbSerial, je najbežnejší protokol. Používa sa, pokiaľ je váš prístroj pripojený cez USB alebo COM port.
+- UsbSerial, je najbežnejší protokol. Mal by byť použitý pokiaľ je Váš stroj pripojený cez USB alebo COM port.
 - Telnet, pokiaľ máte Wifi-Telnet bridge. Komunikácia je implementovaná ako jednoduchý telnet klient-server.
 - LaserWebESP8266 podporuje Wifi pripojenie cez WebSocket. Kompatibilný s LaserWeb-ESP8266 software.</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>LaserGRBL môže zisťovať problémy a varovať používateľa poskytovaním informacií o tom ako ich vyriešiť.
-Pokud je deaktivované, sú všetky problémy riešené na pozadí bez varovania.</value>
+    <value>LaserGRBL môže detekovať problémy a varovať užívateľa poskytnutím informácií o tom, ako ich vyriešiť.
+Pokiaľ je detekovaný, sú všetky problémy riešené ticho bez varovania.</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>s</value>
@@ -181,13 +181,14 @@ Pokiaľ používate automatické chladenie so staršou verziou grbl (slebo s dea
  behom pauzy nevypne a vypáli dieru do materiálu!</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Režim streamovania: [prednastavené Bufferovanie]
-- Bufferovanie: optimalizácia streamovania príkazov podľa zaplnenia grbl primajúceho bufferu [odporúčané]
-- Synchrónny: čakanie na vykonanie každého príkazu, kým sa odošle ďalší príkaz [pomalšie, ale bezpečnejšie]
-- Opakovanie pri chybe: rovnaké ako Synchrónny režim, ale pokiaľ je zistená chyba príkazy sa opakujú [experimentálne]</value>
+    <value>Režim streamovanie: [východzí Bufferovanie]
+- Bufferovanie: optimalizácia streamovania príkazov podľa zaplnenia grbl primajúceho bufferu [doporučené]
+- Synchrónny: čakanie na prevedenie každého príkazu, kým sa odošle ďalší príkaz [pomalšie, ale bezpečnejšie]
+- Opakovanie pri chybe: rovnaké ako Synchrónny režim, ale príkazy sú opakovane pokiaľ je detekovaná chyba [experimentálne]</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Threading Mode: Ultrarýchly, Rýchly, Tichý, Pomalý. [prednastavený Ultrarýchly]
+    <value>Threading Mode: [východzí UltraFast]
+Ultrarýchly, Rýchly, Kľudný, Pomalý.
 Toto nastavenie ovplyvňuje rýchlosť a frekvenciu žiadostí o hlásení stavu zariadenia.
 Pokiaľ máte problémy, nastavte pomalšie hodnoty.</value>
   </data>
@@ -195,7 +196,7 @@ Pokiaľ máte problémy, nastavte pomalšie hodnoty.</value>
     <value>Pokiaľ je aktivovaný, LaserGRBL odošle soft-reset pri otvorení pripojenia k grbl.</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Pokiaľ je aktivovaný, LaserGRBL odošle hard-reset pri otvorení pripojenia ku grbl  [strata pozície!].</value>
+    <value>Pokiaľ je aktivovaný, LaserGRBL odošle hard-reset pri otvorení pripojenia k grbl  [strata pozície!].</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Váš kontrolér musí podporovať TTL riadenie na pine D11 Arduina.
@@ -216,15 +217,15 @@ Pokiaľ je aktivovane automatické chladenie, LaserGRBL odošle automaticky prí
 Po uplynutí tejto doby LaserGRBL odošle automaticky príkaz pre prerušenie úlohy, aby vychladol laser.</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Typ firmvéru
+    <value>Typ firmware kontroléra
 - Grbl: skvelý firmware, pre ktorý bol LaserGRBL vyvinutý.
 - Smoothie [experimentálny]: podpora bola pridaná nedávno a nieje úplne otestovaná.</value>
   </data>
   <data name="CbContinuosJog.Text" xml:space="preserve">
-    <value>Plynulé polohovanie</value>
+    <value>Plynule polohovanie</value>
   </data>
   <data name="TpJogControl.Text" xml:space="preserve">
-    <value>Ovládanie polohovania</value>
+    <value>Polohovanie</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Hlavička</value>
@@ -233,7 +234,8 @@ Po uplynutí tejto doby LaserGRBL odošle automaticky príkaz pre prerušenie ú
     <value>Päta</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Viacero prechodov</value>
+    <value>Opakované prechody
+(vykonanie kódu)</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
     <value>G-kód</value>
@@ -255,17 +257,5 @@ Syntax kódu je rovnaká ako pri vlastných tlačidlách.</value>
 Napríklad sa môže použiť k posunutiu osi Z nadol pri prevedení rezu hlbšie.
 
 Syntax kódu je rovnaká ako pri vlastných tlačidlách.</value>
-  </data>
-  <data name="CbSoftReset.Text" xml:space="preserve">
-    <value>Jemný reset [Ctrl-X]</value>
-  </data>
-  <data name="CbHardReset.Text" xml:space="preserve">
-    <value>Tvrdý reset [DTR+RTS]</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>min</value>
-  </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>min</value>
   </data>
 </root>

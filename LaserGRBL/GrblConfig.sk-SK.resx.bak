@@ -112,34 +112,49 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnOK.Text" xml:space="preserve">
-    <value>OK</value>
+  <data name="BtnWrite.Text" xml:space="preserve">
+    <value>Zápis</value>
+  </data>
+  <data name="BtnRead.Text" xml:space="preserve">
+    <value>Čítanie</value>
   </data>
   <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Zrušiť</value>
+    <value>Zatvoriť</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Riadok #</value>
+  <data name="LblConnect.Text" xml:space="preserve">
+    <value>Čítanie a zápis je povolený
+iba pri pripojení v kľudnom stave</value>
   </data>
-  <data name="RbFromSpecific.Text" xml:space="preserve">
-    <value>Spustiť z daného riadku</value>
+  <data name="Parameter.HeaderText" xml:space="preserve">
+    <value>Parameter</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Možnosti</value>
+  <data name="Value.HeaderText" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="Unit.HeaderText" xml:space="preserve">
+    <value>Jednotka</value>
+  </data>
+  <data name="Description.HeaderText" xml:space="preserve">
+    <value>Poznámka</value>
+  </data>
+  <data name="Number.HeaderText" xml:space="preserve">
+    <value>Číslo</value>
+  </data>
+  <data name="GB.Text" xml:space="preserve">
+    <value>Grbl $$ konfiguracia</value>
+  </data>
+  <data name="DollarNumber.HeaderText" xml:space="preserve">
+    <value>#</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Spustiť z pozície</value>
+    <value>Grbl</value>
   </data>
-  <data name="LblBrief.Text" xml:space="preserve">
-    <value>Táto funkcia umožňuje spustiť úlohu od konkrétneho riadku a preskočiť akýkoľvek predchádzajúci pohyb.
-LaserGRBL vypočíta presnú polohu a stav, a potom uvedie stroj do správneho stavu.</value>
-  </data>
-  <data name="CbRedoHoming.Text" xml:space="preserve">
-    <value>Návrat domov [$H]</value>
+  <data name="LblAction.Text" xml:space="preserve">
+    <value>Akcia</value>
   </data>
 </root>

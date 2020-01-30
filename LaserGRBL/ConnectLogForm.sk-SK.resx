@@ -112,31 +112,31 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LblFilename.Text" xml:space="preserve">
-    <value>Soubor</value>
+    <value>Súbor</value>
   </data>
   <data name="LblProgress.Text" xml:space="preserve">
-    <value>Průběh</value>
+    <value>Vývoj</value>
   </data>
   <data name="BtnOpen.ToolTip" xml:space="preserve">
-    <value>Otevřít soubor</value>
+    <value>Otvoriť súbor</value>
   </data>
   <data name="BtnRunProgram.ToolTip" xml:space="preserve">
-    <value>Spustit úlohu</value>
+    <value>Spustiť program</value>
   </data>
   <data name="UDLoopCounter.ToolTip" xml:space="preserve">
-    <value>Počet průchodů (opakování)</value>
+    <value>Vykonať viac fáz</value>
   </data>
   <data name="BtnAbortProgram.ToolTip" xml:space="preserve">
-    <value>Přerušit úlohu</value>
+    <value>Prerušiť program</value>
   </data>
   <data name="BtnConnectDisconnect.ToolTip" xml:space="preserve">
-    <value>Připojit</value>
+    <value>Pripojiť</value>
   </data>
   <data name="LblBaudRate.Text" xml:space="preserve">
     <value>Baud</value>
@@ -149,5 +149,11 @@
   </data>
   <data name="LblEmulator.Text" xml:space="preserve">
     <value>Emulátor</value>
+  </data>
+  <data name="TxtManualCommand.WaterMark" xml:space="preserve">
+    <value>sem vložte G-kód</value>
+  </data>
+  <data name="LblComPort.Text" xml:space="preserve">
+    <value>COM</value>
   </data>
 </root>

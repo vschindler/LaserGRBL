@@ -112,13 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Storno</value>
+    <value>Zrušiť</value>
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
     <value>Uložiť</value>
@@ -136,7 +136,7 @@
     <value>Správca HOT KEYS</value>
   </data>
   <data name="LblConnect.Text" xml:space="preserve">
-    <value>Zadajte ľubovoľnú kombináciu kláves pre nastavenie skratky.
-Klávesovú skratku odstránite stlačením klávesy "Storno".</value>
+    <value>Pre nastavenie skratky zadajte ľubovoľnú kombináciu klávesov.
+Pre odstránenie kl. skratky stlačte "Zrušiť".</value>
   </data>
 </root>
