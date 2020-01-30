@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MnFileOpen.Text" xml:space="preserve">
     <value>&amp;Otvoriť súbor.</value>
@@ -181,7 +181,7 @@
     <value>Dar!</value>
   </data>
   <data name="TTTStatus.Text" xml:space="preserve">
-    <value>Odpojene</value>
+    <value>Odpojené</value>
   </data>
   <data name="MnDisconnect.Text" xml:space="preserve">
     <value>Odpojiť</value>
@@ -199,7 +199,7 @@
     <value>Prid&amp;ať súbor</value>
   </data>
   <data name="MnStartFromPosition.Text" xml:space="preserve">
-    <value>Odoslať s pozície</value>
+    <value>Odoslať z pozície</value>
   </data>
   <data name="installCH340DriverToolStripMenuItem.Text" xml:space="preserve">
     <value>Inštalovať CH340 ovládač</value>
